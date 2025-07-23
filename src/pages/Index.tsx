@@ -22,76 +22,32 @@ const Index = () => {
           </div>
 
           {/* Hero Content */}
-          <div className="relative z-10 space-y-6 animate-slide-in-left">
-            <div>
-              <h1 className="text-5xl font-bold text-foreground leading-tight mb-4">
-                Excellence in 
-                <span className="block bg-gradient-primary bg-clip-text text-transparent">
-                  Education Management
+          <div className="relative z-10 space-y-8 animate-slide-in-left">
+            <div className="text-center">
+              <h1 className="text-4xl font-bold text-foreground leading-tight mb-6">
+                <span className="bg-gradient-primary bg-clip-text text-transparent">
+                  School ERP System
                 </span>
               </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed">
-                Streamline your educational institution with our comprehensive ERP system. 
-                Manage students, faculty, academics, and administration all in one place.
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Streamline your educational institution with modern technology
               </p>
             </div>
 
-            {/* Feature Grid */}
-            <div className="grid grid-cols-2 gap-6 pt-8">
-              <div className="flex items-center space-x-3 group">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
-                  <Users className="w-6 h-6 text-primary" />
+            {/* Simple Features */}
+            <div className="grid grid-cols-2 gap-4">
+              <div className="text-center group">
+                <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:bg-primary/20 transition-colors duration-300">
+                  <Users className="w-8 h-8 text-primary" />
                 </div>
-                <div>
-                  <h3 className="font-semibold text-foreground">Student Management</h3>
-                  <p className="text-sm text-muted-foreground">Complete student lifecycle</p>
-                </div>
+                <h3 className="font-semibold text-foreground">Student Management</h3>
               </div>
               
-              <div className="flex items-center space-x-3 group">
-                <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center group-hover:bg-accent/20 transition-colors duration-300">
-                  <BookOpen className="w-6 h-6 text-accent" />
+              <div className="text-center group">
+                <div className="w-16 h-16 bg-accent/10 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:bg-accent/20 transition-colors duration-300">
+                  <BookOpen className="w-8 h-8 text-accent" />
                 </div>
-                <div>
-                  <h3 className="font-semibold text-foreground">Academic Planning</h3>
-                  <p className="text-sm text-muted-foreground">Curriculum & scheduling</p>
-                </div>
-              </div>
-
-              <div className="flex items-center space-x-3 group">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
-                  <Award className="w-6 h-6 text-primary" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-foreground">Performance Tracking</h3>
-                  <p className="text-sm text-muted-foreground">Analytics & reports</p>
-                </div>
-              </div>
-
-              <div className="flex items-center space-x-3 group">
-                <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center group-hover:bg-accent/20 transition-colors duration-300">
-                  <Shield className="w-6 h-6 text-accent" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-foreground">Secure Access</h3>
-                  <p className="text-sm text-muted-foreground">Role-based security</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Stats */}
-            <div className="flex items-center justify-between pt-8 border-t border-border/50">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary">500+</div>
-                <div className="text-sm text-muted-foreground">Schools Trust Us</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-accent">1M+</div>
-                <div className="text-sm text-muted-foreground">Students Managed</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary">99.9%</div>
-                <div className="text-sm text-muted-foreground">Uptime</div>
+                <h3 className="font-semibold text-foreground">Academic Planning</h3>
               </div>
             </div>
           </div>
